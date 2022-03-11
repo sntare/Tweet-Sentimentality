@@ -1,9 +1,10 @@
 //
-// Created by Mark Fontenot on 6/2/2021.
+// Created by Steve Ntare on 6/14/2021.
 //
 
-#ifndef PA01_SENTIMENT_DSSTRING_H
-#define PA01_SENTIMENT_DSSTRING_H
+#ifndef INC_21SU_PA02_TEMPLATE_DSSTRING_H
+#define INC_21SU_PA02_TEMPLATE_DSSTRING_H
+
 
 #include <iostream>
 #include <cstring>
@@ -28,8 +29,8 @@ private:
      *    A quick google search will return plenty of references on
      *    the c-string functions.
      **/
-     char* data;
-     int size() const;
+    char* data;
+    int size() const;
 
 public:
 
@@ -118,4 +119,5 @@ public:
 
 
 
-#endif //PA01_SENTIMENT_DSSTRING_H
+
+#endif //INC_21SU_PA02_TEMPLATE_DSSTRING_H

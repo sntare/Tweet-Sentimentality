@@ -1,5 +1,5 @@
 //
-// Created by mark on 6/2/2021.
+// Created by Steve Ntare on 6/14/2021.
 //
 
 #include "DSString.h"
@@ -169,7 +169,4 @@ void DSString::setData( char* ran) {
     this->data = ran;
 
 }
-
-
-
 
